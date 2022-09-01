@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826717179261",
+    "project_id": "hetch-82867",
+    "storage_bucket": "hetch-82867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826717179261:android:47d2e1e06308464c525014",
+        "android_client_info": {
+          "package_name": "com.hb.qrscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826717179261-5s87r6nmp2luqfqd4lf3bpiemgr5juoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAze1elOEtEJ7lW0nqyUJjVmiscrYO4-xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826717179261-5s87r6nmp2luqfqd4lf3bpiemgr5juoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

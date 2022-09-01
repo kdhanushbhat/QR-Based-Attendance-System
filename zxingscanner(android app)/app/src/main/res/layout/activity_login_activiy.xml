@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LoginActiviy">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="191dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="198dp"
+        android:backgroundTint="#000000"
+        android:text="SUBMIT"
+        android:textAlignment="center"
+        android:textColor="#E8E8E8"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_send"
+        app:iconTint="#FFFFFF"
+        app:iconTintMode="multiply" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="570dp"
+        android:background="#00052C3A"
+        android:fontFamily="sans-serif-black"
+        android:text="TECHIQ-ATTENDANCE SYSTEM"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailedit"
+        android:layout_width="353dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="444dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/passedit"
+        android:layout_width="351dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="355dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#F4F4F4" />
+
+</RelativeLayout>
+

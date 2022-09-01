@@ -1,0 +1,80 @@
+.loginbox {
+  text-align: center;
+
+  display: block;
+  border-radius: 0.5rem;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: white;
+}
+.loginbox > h1 {
+  font-family: "Montserrat";
+  font-size: 2.2rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: #005fad;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.btns .nav-link {
+  background-color: grey;
+}
+.password-label,
+.email-label {
+  font-family: "Montserrat";
+  font-weight: 600;
+  border: black solid 3px;
+  border-radius: 7px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  background-color: #027ce0;
+  color: white;
+}
+.dropdown-menu li:hover {
+  background-color: beige;
+}
+
+.login-input {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 600;
+  margin: 0.8rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+}
+.email {
+  position: relative;
+}
+.login-submit {
+  border: 0;
+  border-radius: 5px;
+  /* font-weight: bold; */
+  padding: 7px;
+  background-color: white;
+  height: 2.4rem;
+  color: black;
+  box-shadow: 2px 1px 8px #888888;
+  font-size: 1.1rem;
+}
+.login-submit:hover {
+  font-weight: 800;
+}
+.login-submit:active {
+  text-decoration: none;
+  /* border: solid black 2px; */
+  box-shadow: 0px 0px;
+}
+.alert {
+  font-size: 1rem;
+  color: red;
+}

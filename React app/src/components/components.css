@@ -1,0 +1,12 @@
+.homepage {
+  height: 100%;
+  background-color: white;
+  color: black;
+}
+.details-section {
+  overflow-wrap: break-word;
+}
+.school-details {
+  background-color: cyan;
+  color: black;
+}
